@@ -1,21 +1,26 @@
 package Sprint1;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.Test;
 
-public class Day1 {
-	
-	
-	
-	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
-System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-WebDriver driver;
-driver = new ChromeDriver();
-driver.get("http://google.com");
-Thread.sleep(1500);
-driver.close();
+import BaseModel.BaseClass;
+
+public class Day1 extends BaseClass {
+	WebElement SignIn;//SignIn is an object of Selenium Webelement class
+	@Test
+	public void Opening() {
+		driver.get(Google);
+		driver.get(AppUrl);
+		driver.findElement(By.className("login")).click();//Direct way to find and locate Webelements.
+		SignIn = driver.findElement(By.className("login"));//signIn becomes WebElement variable
+		SignIn.click();//using WebElement variable to click on the SignIn object or element.
 	}
+	
+	
+
 
 }

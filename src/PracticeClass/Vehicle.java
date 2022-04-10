@@ -6,7 +6,7 @@ public class Vehicle{
 	
 	
 	
-	          //Data Type     //variable name     //variable Value
+	   //KeyWord //Data Type     //variable name     //variable Value
 public static int           numberOfwheels =       4;                 //Static variable
                             // x = 4
 
@@ -45,7 +45,7 @@ public static void main(String[] args)  {//Static method
 	Vehicle BMW = new Vehicle();//Vehicle() is Constructor of Class Vehicle
 	BMW.start();   // Cannot be accesses directly from the class.
 	BMW.changeGear();
-	System.out.println("Car speed is " + Vehicle.accelerate() + "mph");  //Can be directly be accessed from the class 
+	System.out.println("Car speed is " + Vehicle.accelerate() + "mph");  //Vehicle.accelerate()Can be directly be accessed from the class 
 	System.out.println("the price of the wheel is " + BMW.price / numberOfwheels);
 	}
 
