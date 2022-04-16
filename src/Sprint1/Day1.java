@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 import BaseModel.BaseClass;
 
 public class Day1 extends BaseClass {
-	WebElement SignIn;//SignIn is an object of Selenium Webelement class
-	@Test
+	WebElement SignIn;//SignIn is an object of Selenium WebElement class
+	@Test()
 	public void Opening() {
 		driver.get(Google);
 		driver.get(AppUrl);

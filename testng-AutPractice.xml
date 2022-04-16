@@ -4,7 +4,7 @@
   <test thread-count="5" name="AutomationPractice">
     <classes>
       <class name="Sprint1.Day1"/> 
-  <!-- <class name="Sprint1.Day2"/>  Xml Comments -->
+      <class name="Sprint1.Day2"/> 
     </classes>
   </test> <!-- AutomationPractice -->
 </suite> <!-- Suite-March 2022 -->

@@ -5,7 +5,15 @@
     <classes>
       <class name="Sprint1.Day2">
         <methods>
-          <include name="start"/>
+          <include name="PageValidations"/>
+          <include name="validations"/>
+          <include name="Synchronize"/>
+          <include name="setup"/>
+          <include name="Authenficate"/>
+          <include name="config"/>
+          <include name="BrowserClosing"/>
+          <include name="terminate"/>
+          <include name="BrowserConfig"/>
         </methods>
       </class> <!-- Sprint1.Day2 -->
     </classes>
