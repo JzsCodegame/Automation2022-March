@@ -11,7 +11,10 @@ import BaseModel.BaseClass;
 
 
 public class Day2 extends BaseClass {
+	
 	WebElement EmailAddress;
+	WebElement CreateAnAccount;
+	
 	@Test()
 	public void Authenficate() {
 		
@@ -19,9 +22,16 @@ public class Day2 extends BaseClass {
 		
 		driver.findElement(By.id("email_create")).clear();
 		
-		EmailAddress = driver.findElement(By.id("email_create"));
+		EmailAddress = driver.findElement(By.id("email_create"));//Email Address box
 		
-		EmailAddress.sendKeys("xyz@gmail.com");
+		EmailAddress.sendKeys("xyz2022@gmailll.com");
+		
+		//name = "SubmitCreate"
+		
+		CreateAnAccount = driver.findElement(By.name("SubmitCreate"));//WebElement Objects has executable ability when assigned as variable.
+		
+		CreateAnAccount.click();
+		
 	}
 	
 	

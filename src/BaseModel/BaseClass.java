@@ -19,7 +19,7 @@ public class BaseClass {
 
 	
 	public static WebDriver driver; //We create at class level.. so Static Object can be accessed anywhere.  
-	public static WebDriver driver1;
+	
 	public static String AppUrl;//We create at class level.. so Static Variable can be accessed anywhere 
     public static String Google;
 	
@@ -29,7 +29,7 @@ public class BaseClass {
     
     @BeforeSuite() //Declare The Annotations
 	public void config() {  //Declare The Method
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");//Write The statements or code based on requirement. In this case using driver configurations.
+		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");//Write The statements or code based on requirement. In this case using driver configurations.
 		//System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
 		Google = "https://www.google.com/";//Variable Configurations meaning provide values to variables.
 		AppUrl = "http://automationpractice.com/index.php";
@@ -38,12 +38,12 @@ public class BaseClass {
 	@BeforeTest()
 	public void setup() {
 		driver = new ChromeDriver();//ChromeDriver() is the Constructor ChromeDriver class.So before test we instantiate which driver we will use.
-		driver1 = new EdgeDriver();
+		//driver1 = new EdgeDriver();
 	}
 	
 	@BeforeClass()
 	 public void Synchronize(){
-		//driver.get(AppUrl);
+		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);// Implicitly wait in general for 10 seconds. We synchronize how the code and machine will run.
 	}
 	
@@ -65,7 +65,7 @@ public class BaseClass {
 	
 	@AfterTest()
 	public void BrowserClosing() throws InterruptedException {
-		Thread.sleep(2000); //We use thread.sleep to make Java wait so we can see our execution results.
+		Thread.sleep(5000); //We use thread.sleep to make Java wait so we can see our execution results.
 		driver.close();// We close the browser
 		
 	}

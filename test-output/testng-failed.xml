@@ -16,19 +16,6 @@
           <include name="BrowserConfig"/>
         </methods>
       </class> <!-- Sprint1.Day2 -->
-      <class name="Sprint1.Day1">
-        <methods>
-          <include name="PageValidations"/>
-          <include name="validations"/>
-          <include name="Synchronize"/>
-          <include name="setup"/>
-          <include name="config"/>
-          <include name="Opening"/>
-          <include name="BrowserClosing"/>
-          <include name="terminate"/>
-          <include name="BrowserConfig"/>
-        </methods>
-      </class> <!-- Sprint1.Day1 -->
     </classes>
   </test> <!-- AutomationPractice(failed) -->
 </suite> <!-- Failed suite [Suite-March 2022] -->
