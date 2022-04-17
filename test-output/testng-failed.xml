@@ -3,19 +3,19 @@
 <suite name="Failed suite [Suite-March 2022]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="AutomationPractice(failed)">
     <classes>
-      <class name="Sprint1.Day2">
+      <class name="Sprint1.Day3">
         <methods>
           <include name="PageValidations"/>
+          <include name="CreateAccount"/>
           <include name="validations"/>
           <include name="Synchronize"/>
           <include name="setup"/>
-          <include name="Authenficate"/>
           <include name="config"/>
           <include name="BrowserClosing"/>
           <include name="terminate"/>
           <include name="BrowserConfig"/>
         </methods>
-      </class> <!-- Sprint1.Day2 -->
+      </class> <!-- Sprint1.Day3 -->
     </classes>
   </test> <!-- AutomationPractice(failed) -->
 </suite> <!-- Failed suite [Suite-March 2022] -->

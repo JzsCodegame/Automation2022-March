@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -22,7 +23,7 @@ public class BaseClass {
 	
 	public static String AppUrl;//We create at class level.. so Static Variable can be accessed anywhere 
     public static String Google;
-	
+    public static WebDriverWait Ex;//This is the class for explicit wait and Ex is the object of the class 
 	
     
     
@@ -37,7 +38,9 @@ public class BaseClass {
 	
 	@BeforeTest()
 	public void setup() {
+		
 		driver = new ChromeDriver();//ChromeDriver() is the Constructor ChromeDriver class.So before test we instantiate which driver we will use.
+		Ex = new WebDriverWait(driver, 10);
 		//driver1 = new EdgeDriver();
 	}
 	

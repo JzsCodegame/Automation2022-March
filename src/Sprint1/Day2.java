@@ -15,7 +15,7 @@ public class Day2 extends BaseClass {
 	WebElement EmailAddress;
 	WebElement CreateAnAccount;
 	
-	@Test()
+	@Test(priority = 1)
 	public void Authenficate() {
 		
 		driver.findElement(By.id("email_create")).sendKeys("email");
