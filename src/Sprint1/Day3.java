@@ -27,16 +27,18 @@ WebElement FirstName;
 	    Mr = Ex.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"id_gender1\"]")));
 		Mr.click();
 		System.out.println("Mr is selected"+" "+Mr.isSelected());
-	//	/html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[1]/input - Example of Absolute Xpath.
+	
+		//	/html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[1]/input - Example of Absolute Xpath.
 		//tagname[@attribute='value'] - Xpath Rule #1 template
 		FirstName = driver.findElement(By.xpath("//input[@name='firstname']"));
 		FirstName = Ex.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='firstname']")));
-		System.out.println("FirstName is selected"+" "+FirstName.isSelected());
+		System.out.println("FirstName is selected"+" "+FirstName.isEnabled());
+		
 		FirstName.click();
 		FirstName.sendKeys("Javid");
 		String NameValue = driver.findElement(By.xpath("//input[@name='firstname']")).getAttribute("value");
-	    Assert.assertEquals("Javid" , NameValue);
-	    System.out.println(NameValue);
+	    Assert.assertEquals("Javid" , NameValue);//Assert will not print any results but if fails then code will stop in this line
+	    System.out.println(NameValue+" "+"Assert passed");
 	}
 	}
 
