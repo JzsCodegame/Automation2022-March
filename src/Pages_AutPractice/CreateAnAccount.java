@@ -14,4 +14,3 @@ WebDriver Driver;
 	@FindBy(name = "//input[@name='firstname']")
 	WebElement FirstName;
 }
-cd

@@ -6,6 +6,7 @@
       <class name="Sprint1.Day1"/> 
       	<class name="Sprint1.Day2"/> 
 			<class name="Sprint1.Day3"/>
+				<class name="Sprint1.Day4"/>
     </classes>
   </test> <!-- AutomationPractice -->
 </suite> <!-- Suite-March 2022 -->
