@@ -1,115 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="16" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-23T16:10:46 UTC" name="Suite-March 2022" finished-at="2022-04-23T16:11:35 UTC" duration-ms="49122">
+  <suite started-at="2022-04-24T16:36:59 UTC" name="Default suite" finished-at="2022-04-24T16:37:37 UTC" duration-ms="38136">
     <groups>
     </groups>
-    <test started-at="2022-04-23T16:10:46 UTC" name="AutomationPractice" finished-at="2022-04-23T16:11:35 UTC" duration-ms="49122">
-      <class name="Sprint1.Day3">
-        <test-method is-config="true" signature="Synchronize()[pri:0, instance:Sprint1.Day3@5a63f509]" started-at="2022-04-23T16:11:14 UTC" name="Synchronize" finished-at="2022-04-23T16:11:14 UTC" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Synchronize -->
-        <test-method is-config="true" signature="BrowserConfig()[pri:0, instance:Sprint1.Day3@5a63f509]" started-at="2022-04-23T16:11:14 UTC" name="BrowserConfig" finished-at="2022-04-23T16:11:14 UTC" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserConfig -->
-        <test-method signature="CreateAccount()[pri:3, instance:Sprint1.Day3@5a63f509]" started-at="2022-04-23T16:11:14 UTC" name="CreateAccount" finished-at="2022-04-23T16:11:17 UTC" duration-ms="3498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateAccount -->
-        <test-method is-config="true" signature="validations()[pri:0, instance:Sprint1.Day3@5a63f509]" started-at="2022-04-23T16:11:17 UTC" name="validations" finished-at="2022-04-23T16:11:17 UTC" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validations -->
-        <test-method is-config="true" signature="PageValidations()[pri:0, instance:Sprint1.Day3@5a63f509]" started-at="2022-04-23T16:11:17 UTC" name="PageValidations" finished-at="2022-04-23T16:11:17 UTC" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PageValidations -->
-      </class> <!-- Sprint1.Day3 -->
-      <class name="Sprint1.Day4">
-        <test-method is-config="true" signature="Synchronize()[pri:0, instance:Sprint1.Day4@6e4784bc]" started-at="2022-04-23T16:11:17 UTC" name="Synchronize" finished-at="2022-04-23T16:11:17 UTC" duration-ms="24" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Synchronize -->
-        <test-method is-config="true" signature="BrowserConfig()[pri:0, instance:Sprint1.Day4@6e4784bc]" started-at="2022-04-23T16:11:17 UTC" name="BrowserConfig" finished-at="2022-04-23T16:11:17 UTC" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserConfig -->
-        <test-method signature="CreateAccount2()[pri:4, instance:Sprint1.Day4@6e4784bc]" started-at="2022-04-23T16:11:17 UTC" name="CreateAccount2" finished-at="2022-04-23T16:11:28 UTC" duration-ms="10845" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateAccount2 -->
-        <test-method is-config="true" signature="validations()[pri:0, instance:Sprint1.Day4@6e4784bc]" started-at="2022-04-23T16:11:28 UTC" name="validations" finished-at="2022-04-23T16:11:28 UTC" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validations -->
-        <test-method is-config="true" signature="PageValidations()[pri:0, instance:Sprint1.Day4@6e4784bc]" started-at="2022-04-23T16:11:28 UTC" name="PageValidations" finished-at="2022-04-23T16:11:28 UTC" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PageValidations -->
-      </class> <!-- Sprint1.Day4 -->
-      <class name="Sprint1.Day1">
-        <test-method is-config="true" signature="config()[pri:0, instance:Sprint1.Day1@63021689]" started-at="2022-04-23T16:10:46 UTC" name="config" finished-at="2022-04-23T16:10:46 UTC" duration-ms="10" status="PASS">
+    <test started-at="2022-04-24T16:36:59 UTC" name="Default test" finished-at="2022-04-24T16:37:37 UTC" duration-ms="38136">
+      <class name="Sprint1.Day5">
+        <test-method is-config="true" signature="config()[pri:0, instance:Sprint1.Day5@418e7838]" started-at="2022-04-24T16:36:59 UTC" name="config" finished-at="2022-04-24T16:36:59 UTC" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Sprint1.Day1@63021689]" started-at="2022-04-23T16:10:46 UTC" name="setup" finished-at="2022-04-23T16:10:57 UTC" duration-ms="10825" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Sprint1.Day5@418e7838]" started-at="2022-04-24T16:36:59 UTC" name="setup" finished-at="2022-04-24T16:37:14 UTC" duration-ms="15066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="Synchronize()[pri:0, instance:Sprint1.Day1@63021689]" started-at="2022-04-23T16:10:57 UTC" name="Synchronize" finished-at="2022-04-23T16:10:57 UTC" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="Synchronize()[pri:0, instance:Sprint1.Day5@418e7838]" started-at="2022-04-24T16:37:14 UTC" name="Synchronize" finished-at="2022-04-24T16:37:14 UTC" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Synchronize -->
-        <test-method is-config="true" signature="BrowserConfig()[pri:0, instance:Sprint1.Day1@63021689]" started-at="2022-04-23T16:10:57 UTC" name="BrowserConfig" finished-at="2022-04-23T16:10:57 UTC" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="BrowserConfig()[pri:0, instance:Sprint1.Day5@418e7838]" started-at="2022-04-24T16:37:14 UTC" name="BrowserConfig" finished-at="2022-04-24T16:37:14 UTC" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserConfig -->
-        <test-method signature="Opening()[pri:0, instance:Sprint1.Day1@63021689]" started-at="2022-04-23T16:10:57 UTC" name="Opening" finished-at="2022-04-23T16:11:13 UTC" duration-ms="15766" status="PASS">
+        <test-method signature="signin()[pri:5, instance:Sprint1.Day5@418e7838]" started-at="2022-04-24T16:37:14 UTC" name="signin" finished-at="2022-04-24T16:37:27 UTC" duration-ms="13301" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Opening -->
-        <test-method is-config="true" signature="validations()[pri:0, instance:Sprint1.Day1@63021689]" started-at="2022-04-23T16:11:13 UTC" name="validations" finished-at="2022-04-23T16:11:13 UTC" duration-ms="2" status="PASS">
+        </test-method> <!-- signin -->
+        <test-method is-config="true" signature="validations()[pri:0, instance:Sprint1.Day5@418e7838]" started-at="2022-04-24T16:37:27 UTC" name="validations" finished-at="2022-04-24T16:37:27 UTC" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validations -->
-        <test-method is-config="true" signature="PageValidations()[pri:0, instance:Sprint1.Day1@63021689]" started-at="2022-04-23T16:11:13 UTC" name="PageValidations" finished-at="2022-04-23T16:11:13 UTC" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="PageValidations()[pri:0, instance:Sprint1.Day5@418e7838]" started-at="2022-04-24T16:37:27 UTC" name="PageValidations" finished-at="2022-04-24T16:37:27 UTC" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PageValidations -->
-        <test-method is-config="true" signature="BrowserClosing()[pri:0, instance:Sprint1.Day1@63021689]" started-at="2022-04-23T16:11:28 UTC" name="BrowserClosing" finished-at="2022-04-23T16:11:35 UTC" duration-ms="6984" status="PASS">
+        <test-method is-config="true" signature="BrowserClosing()[pri:0, instance:Sprint1.Day5@418e7838]" started-at="2022-04-24T16:37:27 UTC" name="BrowserClosing" finished-at="2022-04-24T16:37:37 UTC" duration-ms="9477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserClosing -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:Sprint1.Day1@63021689]" started-at="2022-04-23T16:11:36 UTC" name="terminate" finished-at="2022-04-23T16:11:36 UTC" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="terminate()[pri:0, instance:Sprint1.Day5@418e7838]" started-at="2022-04-24T16:37:37 UTC" name="terminate" finished-at="2022-04-24T16:37:37 UTC" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-      </class> <!-- Sprint1.Day1 -->
-      <class name="Sprint1.Day2">
-        <test-method is-config="true" signature="Synchronize()[pri:0, instance:Sprint1.Day2@29626d54]" started-at="2022-04-23T16:11:13 UTC" name="Synchronize" finished-at="2022-04-23T16:11:13 UTC" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Synchronize -->
-        <test-method is-config="true" signature="BrowserConfig()[pri:0, instance:Sprint1.Day2@29626d54]" started-at="2022-04-23T16:11:13 UTC" name="BrowserConfig" finished-at="2022-04-23T16:11:13 UTC" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserConfig -->
-        <test-method signature="Authenficate()[pri:1, instance:Sprint1.Day2@29626d54]" started-at="2022-04-23T16:11:13 UTC" name="Authenficate" finished-at="2022-04-23T16:11:14 UTC" duration-ms="644" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Authenficate -->
-        <test-method is-config="true" signature="validations()[pri:0, instance:Sprint1.Day2@29626d54]" started-at="2022-04-23T16:11:14 UTC" name="validations" finished-at="2022-04-23T16:11:14 UTC" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validations -->
-        <test-method is-config="true" signature="PageValidations()[pri:0, instance:Sprint1.Day2@29626d54]" started-at="2022-04-23T16:11:14 UTC" name="PageValidations" finished-at="2022-04-23T16:11:14 UTC" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PageValidations -->
-      </class> <!-- Sprint1.Day2 -->
-    </test> <!-- AutomationPractice -->
-  </suite> <!-- Suite-March 2022 -->
+      </class> <!-- Sprint1.Day5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

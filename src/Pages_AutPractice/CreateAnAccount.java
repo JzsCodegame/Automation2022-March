@@ -13,4 +13,15 @@ WebDriver Driver;
 	WebElement Mr;
 	@FindBy(name = "//input[@name='firstname']")
 	WebElement FirstName;
+	
+	@FindBy(xpath = "//select[starts-with(@id, 'd')]")
+	WebElement Day;// Xpath rule 5
+    
+	@FindBy(xpath = "//select[starts-with(@name,'mon')]")
+	WebElement Month;
+	
+	@FindBy(xpath = "//select[starts-with(@id,'yea') and (@name ='years')]")
+	WebElement Year;
+	
+	
 }

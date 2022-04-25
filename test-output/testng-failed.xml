@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite-March 2022]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="AutomationPractice(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sprint1.Day4">
+      <class name="Sprint1.Day5">
         <methods>
           <include name="PageValidations"/>
           <include name="validations"/>
+          <include name="signin"/>
           <include name="Synchronize"/>
           <include name="setup"/>
           <include name="config"/>
-          <include name="CreateAccount2"/>
           <include name="BrowserClosing"/>
           <include name="terminate"/>
           <include name="BrowserConfig"/>
         </methods>
-      </class> <!-- Sprint1.Day4 -->
+      </class> <!-- Sprint1.Day5 -->
     </classes>
-  </test> <!-- AutomationPractice(failed) -->
-</suite> <!-- Failed suite [Suite-March 2022] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

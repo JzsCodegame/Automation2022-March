@@ -28,8 +28,9 @@ WebElement FirstName;
 		Mr.click();
 		System.out.println("Mr is selected"+" "+Mr.isSelected());
 	
-		//	/html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[1]/input - Example of Absolute Xpath.
-		//tagname[@attribute='value'] - Xpath Rule #1 template
+		//	-/html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[1]/input - Example of Absolute Xpath.
+		//    -//tagname[@attribute='value'] - Xpath Rule #1 template - An example of Relative Xpath
+		
 		FirstName = driver.findElement(By.xpath("//input[@name='firstname']"));
 		FirstName = Ex.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='firstname']")));
 		System.out.println("FirstName is selected"+" "+FirstName.isEnabled());
