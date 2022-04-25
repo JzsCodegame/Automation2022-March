@@ -21,6 +21,12 @@ public class SignInPage { //This is the page object model for Sign In Page
 		PageFactory.initElements(driver , this);//It associates the PageFactory Class with SignInPage.
 		}
 	//get title of form page
+	public void OpenApp(String Url) { //Instance Custom Method
+
+    	Driver.get(Url);//driver.findElement not required because of @FindBy
+
+    }
+	
     public String getmainpageTitle(){
 
 	     return    Driver.getTitle();
@@ -44,9 +50,10 @@ public class SignInPage { //This is the page object model for Sign In Page
 
     }
     
-    public void openSignup(String email) {
+    public void openSignup(String Url,String email) {
 
         //Fill Fill Email name
+    	this.OpenApp(Url);
     	this.getmainpageTitle();
     	this.clickSignIn();
     	this.EnterEmail(email);

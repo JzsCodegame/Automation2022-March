@@ -16,7 +16,7 @@ public class Day5 extends BaseClass {
 	public void signin() {
 		SignInPage X;
 		X = new SignInPage(driver);
-		driver.get(AppUrl);
-		X.openSignup("xyz2022@gmailll.com");
+		//driver.get(AppUrl);
+		X.openSignup(AppUrl, "xyz2022@gmailll.com");
 	}
 }
