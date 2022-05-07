@@ -60,6 +60,7 @@ public class Day4 extends BaseClass  {
 		
 		Assert.assertEquals(actual, expected);
 		
+		
 		System.out.println(actual+" & "+expected);
 		
 		

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class SignInPage { //This is the page object model for Sign In Page
 	WebDriver Driver;
 	
-	@FindBy(className= "login")
+	@FindBy(className= "login")   //We stored our Xpath as a object repo.
 	WebElement SignIn;
 	@FindBy(xpath = "//*[@class='is_required validate account_input form-control' and @name='email_create']")
 	WebElement EmailAddress;// Xpath Rule 7
